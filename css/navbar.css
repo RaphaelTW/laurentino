@@ -1,0 +1,36 @@
+@import "style.css";
+
+.navbar {
+    background-color: var(--navbar) !important;
+}
+
+.nav-link {
+    color: white !important;
+}
+
+.nav-link:hover {
+    color: #ff0000 !important;
+}
+
+.nav-link:active {
+    color: yellow !important;
+}
+
+.dropdown-item {
+    background-color: var(--background) !important;
+    color: white !important;
+    border-style: double !important;
+    border-color: var(--background) !important;
+    border-width: 4px !important;
+}
+
+.dropdown-item:hover {
+    background-color: var(--navbar) !important;
+    color: red !important;
+}
+
+.dropdown-item:active {
+    background-color: var(--navbar) !important;
+    color: yellow !important;
+}
+

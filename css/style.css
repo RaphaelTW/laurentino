@@ -1,0 +1,8 @@
+:root {
+    --background: #332d2d;
+    --navbar: #292424;
+}
+
+body {
+    background-color: var(--background) !important;
+}
