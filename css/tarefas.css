@@ -37,6 +37,41 @@ button i {
     font-weight: bold;
 }
 
+.btn-danger {
+    background-color: white !important;
+    color: #da3544 !important;
+    border: 2px solid #da3544 !important;
+}
+
+.btn-danger:hover {
+    background-color: #da3544 !important;
+    color: white !important;
+    border: 2px solid #da3544 !important;
+}
+
+.btn-Success {
+    background-color: white !important;
+    color: #198653 !important;
+    border: 2px solid #198653 !important;
+}
+
+.btn-Success:hover {
+    background-color: #198653 !important;
+    color: white !important;
+    border: 2px solid #198653 !important;
+}
+
+.fa-check-double {
+    color: #198653 !important;
+    border: 2px solid white !important;
+}
+
+.fa-check-double:hover {
+    background-color: white !important;
+    color: white !important;
+    border: 2px solid white !important;
+}
+
 input, select {
     padding: 0.25rem 0.5rem;
 }

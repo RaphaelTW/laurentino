@@ -55,14 +55,16 @@
 
     <form id="edit-form" class="hide">
         <p>Edite sua tarefa</p>
-        <div class="form-control">
-            <label class="form-label" for="edit-input">Edite sua tarefa</label>
-            <input type="text" id="edit-input"/>
-            <button type="submit">
+        <div class="input-group mb-3">
+            <div class="form-outline">
+                <input class="form-control" type="text" id="edit-input"/>
+                <label class="form-label" for="edit-input">Edite sua tarefa</label>
+            </div>
+            <button class="btn btn-Success" type="submit">
                 <i class="fa-solid fa-check-double"></i>
             </button>
         </div>
-        <button id="cancel-edit-btn">Cancelar</button>
+        <button class="btn btn-danger" id="cancel-edit-btn">Cancelar</button>
     </form>
 
     <div id="toolbar">
@@ -71,7 +73,7 @@
             <form>
                 <label class="form-label" for="search-input"></label>
                 <input class="form-control" type="text" id="search-input" placeholder="Buscar"/>
-                <button id="erase-button">
+                <button class="btn" id="erase-button">
                     <i class="fa-solid fa-delete-left"></i>
                 </button>
             </form>
