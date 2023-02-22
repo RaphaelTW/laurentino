@@ -7,15 +7,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <meta name="description" content="Raphael Laurentino">
     <meta name="google" content="notranslate">
+
     <title>Raphael Laurentino</title>
+
     <!-- [Links Globais] -->
     <link rel="shortcut icon" href="img/logo-laurentino.png">
     <link rel="stylesheet" href="css/reset.css">
     <!-- [Estilos Internos] -->
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/navbar.css">
-    <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/footer.css">
+    <!-- [Estilos da Página Atual] -->
+    <link rel="stylesheet" href="css/index.css">
     <!-- [Bootstrap] -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
           integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
@@ -56,7 +59,7 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <!-- [Marca da barra de navegação]-->
                 <a class="navbar-brand mt-2 mt-lg-0" href="https://raphael-laurentino.netlify.app/perfil.html">
-                    <img src="img/logo-laurentino.png"
+                    <img class="logo" src="img/logo-laurentino.png"
                          height="40"
                          alt="MDB Logo"
                          loading="lazy"
@@ -67,9 +70,22 @@
                     <li class="nav-item">
                         <a class="nav-link" href="#">Painel</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Equipe</a>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                           aria-expanded="false">
+                            Equipe
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Contatos</a></li>
+                            <li><a class="dropdown-item" href="#">Conheça os membos</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Quem Somos</a></li>
+                        </ul>
                     </li>
+
                     <li class="nav-item">
                         <a class="nav-link" href="https://github.com/RaphaelTW?tab=repositories">Projetos</a>
                     </li>
@@ -192,8 +208,10 @@
 </div>
 <!-- [Fim da div imagem de fundo]-->
 
+</body>
+
 <!-- [Inicio rodapé] -->
-<footer class="bg-dark text-center text-white">
+<footer class="text-center text-white">
     <!-- [Inicio Recipiente de grade] -->
     <div class="container p-4 pb-0">
         <!-- [Inicio seção: mídias sociais] -->
@@ -248,7 +266,7 @@
     <!-- [Fim recipiente de grade] -->
 
     <!-- [Inicio Copyright] -->
-    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+    <div class="rodape text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
         © 2023 Copyright:
         <a class="text-white" href="https://raphael-laurentino.netlify.app/">Raphael Laurentino</a>
     </div>
@@ -271,7 +289,5 @@
 </script>
 
 <script type="text/javascript" src="js/main.70a66962.js"></script>
-
-</body>
 
 </html>

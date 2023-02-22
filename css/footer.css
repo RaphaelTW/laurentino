@@ -1,7 +1,20 @@
+/*Estilo Footer*/
+
+@import "style.css";
+
 .btn-floating:hover  {
     background-color: rgba(10, 83, 190, 0.31) !important;
 }
 
 .btn-floating:active  {
     background-color: rgba(190, 160, 10, 0.31) !important;
+}
+
+footer {
+    background-color: var(--background) !important;
+}
+
+.rodape {
+    background-color: var(--navbar) !important;
+    color: white !important;
 }

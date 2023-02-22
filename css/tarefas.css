@@ -191,3 +191,7 @@ input, select {
     text-decoration: line-through;
     font-style: italic;
 }
+
+.rodape {
+    margin-top: 2rem;
+}
