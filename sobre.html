@@ -8,7 +8,7 @@
     <meta name="description" content="Raphael Laurentino">
     <meta name="google" content="notranslate">
 
-    <title>Raphael Laurentino</title>
+    <title>Contatos</title>
 
     <!-- [Links Globais] -->
     <link rel="shortcut icon" href="img/logo-laurentino.png">
@@ -18,7 +18,7 @@
     <link rel="stylesheet" href="css/navbar.css">
     <link rel="stylesheet" href="css/footer.css">
     <!-- [Estilos da Página Atual] -->
-    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="">
     <!-- [Bootstrap] -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
           integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
@@ -32,6 +32,8 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet"/>
     <!-- [MDB] -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.1.0/mdb.min.css" rel="stylesheet"/>
+
+    <link href="css/bootstrap.css" rel="stylesheet">
 
 </head>
 
@@ -163,46 +165,43 @@
     <!-- [Fim navbar] -->
 </header>
 
-<!-- [Inicio da div imagem de fundo]-->
-<div class="hero-full-container background-image-container white-text-container">
-    <div class="p-5 text-center bg-image white-text-container" style="
-      background-image: url('img/espaço.jpg');
-      height: 400px;
-      margin-top: 58px;">
-
-        <div class="mask" style="background-color: rgba(0, 0, 0, 0.6);">
-            <div class="container">
+<!--[Inicio do corpo]-->
+<div class="section-container">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <div class="section-container-spacer text-center">
+                    <h1 class="h2">Sobre nós</h1>
+                </div>
+                <!--[Inicio descrição]-->
                 <div class="row">
-                    <div class="col-xs-12">
-                        <div class="hero-full-wrapper">
-                            <div class="text-content">
-                                <h1>Oi, eu sou o Goku!<br>
-                                    <span id="typed-strings">
-                                        <span>Eu sou o Raphael</span>
-                                        <span>Sou desenvolvedor Front-end</span>
-                                        <span>Trabalhando como freelancer</span>
-                                    </span>
-                                    <span id="typed"></span>
-                                </h1>
+                    <div class="col-md-10 col-md-offset-1">
+                        <div class="row">
+                            <div class="col-xs-12 col-md-6">
+                                <h3>História</h3>
+                                <p>.</p>
+
+                                <h3>Quem Somos</h3>
+                                <p>.</p>
+
+                                <h3>Procedimentos de Monitoramento dos Pedidos</h3>
+                                <p>O cliente é muito importante, o cliente será atendido o mais rápido para tirar
+                                    todas as suas dúvidas. Usamos um procedimentos de monitoramento aprimorado para o
+                                    melhor
+                                    conforto.</p>
+                            </div>
+                            <div class="col-xs-12 col-md-6">
+                                <img src="img/logo-laurentino.png" class="img-responsive" alt="logo-empresa">
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-
-            <div class="d-flex justify-content-center align-items-center h-100">
-                <div class="text-white">
-                    <h1 class="mb-3">Loading...</h1>
-                    <h4 class="mb-3">Loading...</h4>
-                    <a class="btn btn-outline-light btn-lg" href="#" role="button">
-                        Loading...
-                    </a>
-                </div>
+                <!--[Fim descrição]-->
             </div>
         </div>
     </div>
 </div>
-<!-- [Fim da div imagem de fundo]-->
+<!--[Fim do corpo]-->
 
 <!-- [Inicio rodapé] -->
 <footer class="text-center text-white">
@@ -277,8 +276,7 @@
 
 <script>
     document.addEventListener("DOMContentLoaded", function (event) {
-        type();
-        movingBackgroundImage();
+        navActivePage();
     });
 </script>
 
