@@ -1,0 +1,13 @@
+/*Estilo Contatos*/
+
+label, .hs {
+    color: white !important;
+}
+
+li {
+    color: #a4a4a4 !important;
+}
+
+.btn {
+    margin-top: 1rem;
+}
