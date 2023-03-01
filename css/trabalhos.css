@@ -1,0 +1,16 @@
+/*Estilo Trabalho*/
+
+.btn-light {
+    color: black !important;
+    border-style: solid !important;
+    border-width: 1px !important;
+    border-color: black !important;
+}
+
+.btn-light:hover {
+    color: white !important;
+    background-color: black !important;
+    border-style: solid !important;
+    border-width: 1px !important;
+    border-color: black !important;
+}
